@@ -6,6 +6,8 @@ import About from './pages/About'
 import Services from './pages/Services'
 import Solutions from './pages/Solutions'
 import Contact from './pages/Contact'
+import Footer from './components/Footer'
+import TermsCon from './TermsCon'
 
 function App() {
   
@@ -20,7 +22,10 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/technical-solutions" element={<Solutions />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/terms-and-conditions" element={<TermsCon />} />
       </Routes>
+
+      <Footer />
     </div>
   )
 }
