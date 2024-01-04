@@ -1,6 +1,10 @@
+import LogoAnimation from "../components/LogoAnimation"
+
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <LogoAnimation />
+    </div>
   )
 }
 

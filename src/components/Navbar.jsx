@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import flettorLogo from "../assets/logo-f.jpg";
-import menuBurger from "../assets/menu-burger.png"
+import menuBurger from "../assets/menu-burger-02.png"
 import { useState } from "react";
 
 const Navbar = () => {

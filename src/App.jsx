@@ -7,7 +7,7 @@ import Services from './pages/Services'
 import Solutions from './pages/Solutions'
 import Contact from './pages/Contact'
 import Footer from './components/Footer'
-import TermsCon from './TermsCon'
+import TermsCon from './pages/TermsCon'
 
 function App() {
   
