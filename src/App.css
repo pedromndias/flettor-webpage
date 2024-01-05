@@ -59,22 +59,28 @@ body {
   padding: 0;
   display: none;
   justify-content: center;
-  gap: 10px;
   align-items: center;
   z-index: 1000;
 }
 
 nav ul li {
-  display: inline;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.2;
+  width: 100px;
+  height: 40px;
+  border: 1px solid rgb(251, 231, 4);
+  margin: 20px;
 }
 
 nav ul li a {
   color: rgb(251, 231, 4);
   text-decoration: none;
+  padding: 7px;
 }
 
 nav img {
-  width: 30px;
   height: 30px;
   display: flex;
 }
@@ -93,7 +99,7 @@ nav img {
   right: 10px;
   top: 10px;
 }
-.navbar-toggle  img {
+.navbar-toggle img {
   width: 30px;
   height: 30px;
   display: flex;
@@ -169,6 +175,7 @@ footer {
 @media screen and (min-width: 768px) {
   .navbar-links {
     display: flex;
+    gap: 40px;
   }
 
   .navbar-toggle {
