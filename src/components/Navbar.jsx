@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import flettorLogo from "../assets/logo-flettor-GY-02.jpg";
+import flettorLogo from "../assets/logo-flettor-GY-03.jpg";
 import menuBurger from "../assets/menu-burger-02.png"
 import { useState } from "react";
 
