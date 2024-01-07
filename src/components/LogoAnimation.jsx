@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import logoAnimated from "../assets/logo-complete-RY.jpg"
 
-const LogoAnimation = () => {
+const LogoAnimation = ({ onLogoLoaded }) => {
   const [loaded, setLoaded] = useState(false);
   const [logoSize, setLogoSize] = useState({ width: '10vw', height: '7vw' });
 
