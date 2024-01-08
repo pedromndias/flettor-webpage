@@ -7,7 +7,7 @@ const LogoAnimation = ({ onLogoLoaded }) => {
 
   useEffect(() => {
     const updateLogoSize = () => {
-      setLogoSize({ width: '100vw', height: '70vw' });
+      setLogoSize({ width: '90vw', height: '60vw' });
       setLoaded(true);
       // We need to notify the parent component that logo animation is loaded
       onLogoLoaded();
