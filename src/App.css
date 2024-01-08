@@ -42,7 +42,6 @@ body {
   justify-content: space-between;
   min-height: 100dvh;
   z-index: 0;
-  padding: 2rem;
 }
 
 /* HOME COVER */
@@ -84,6 +83,7 @@ body {
   justify-content: center;
   position: relative;
   box-shadow: 0px 0px 10px gray;
+  margin: 2rem 0;
 }
 
 .navbar-links {
@@ -169,6 +169,11 @@ footer {
   justify-content: center;
   align-items: center;
 }
+footer a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 700;
+}
 
 /* IMAGES */
 
@@ -202,13 +207,68 @@ footer {
 .about {
   margin: 80px auto;
   width: 100%;
+}
+.about-text {
   /* box-shadow: 0px 0px 10px gray; */
-  padding: 2rem;
-  /* border-radius: 10px; */
-  background-color: rgba(251, 231, 4, 0.6);
+  /* background-color: rgba(251, 231, 4, 0.6);
+  color: rgb(0, 76, 19); */
+  background-color: rgb(0, 76, 19);
+  color: rgba(251, 231, 4, 0.7);
+  
+  padding: 4rem 10%;
+}
+.about-text p {
+  margin: 0;
+  padding: 0;
+}
+.about-text-picture {
+  width: 100%;
+  vertical-align: middle;
 }
 
-/* Media Queries */
+.services {
+  margin: 80px auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Align items with space between them */
+  align-items: center;
+}
+.services-text {
+  background-color: rgb(0, 76, 19);
+  color: rgba(251, 231, 4, 0.7);
+  padding: 4rem 10%;
+  flex: 1;
+}
+.services-text p{
+  text-align: left;
+}
+.services-text p li {
+  margin-top: 2px;
+}
+.services-text-picture-container {
+  flex: 0 0 30%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.services-text-picture {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* MEDIA QUERIES */
+
 @media screen and (min-width: 768px) {
   .navbar-links {
     display: flex;
@@ -218,6 +278,12 @@ footer {
   .navbar-toggle {
     display: none;
   }
+
+  .services {
+    flex-direction: row;
+  }
+
+
 }
 
 @media screen and (min-width: 865px) {
@@ -225,4 +291,6 @@ footer {
     width: 100px;
     margin: 7px;
   }
+
+  
 }
