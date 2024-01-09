@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import logoAnimated from "../assets/logo-complete-RY.jpg"
+import logoAnimated from "../assets/logo-complete-RY-short.jpg"
 
 const LogoAnimation = ({ onLogoLoaded }) => {
   const [loaded, setLoaded] = useState(false);
