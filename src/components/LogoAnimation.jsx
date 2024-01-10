@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import logoAnimated from "../assets/logo-complete-RY-short.jpg"
+import logoAnimated from "../assets/logo-complete-RY-short.png"
 
 const LogoAnimation = ({ onLogoLoaded }) => {
   const [loaded, setLoaded] = useState(false);
@@ -7,7 +7,7 @@ const LogoAnimation = ({ onLogoLoaded }) => {
 
   useEffect(() => {
     const updateLogoSize = () => {
-      setLogoSize({ width: '90vw', height: '60vw' });
+      setLogoSize({ width: '75vw', height: '70vw' });
       setLoaded(true);
       // We need to notify the parent component that logo animation is loaded
       onLogoLoaded();

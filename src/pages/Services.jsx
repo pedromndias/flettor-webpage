@@ -4,7 +4,7 @@ const Services = () => {
   return (
     <div className="services">
       <div className="services-text">
-        <h1>Serviços</h1>
+        <h1>SERVIÇOS</h1>
         <p>A Flettor Lda disponibiliza serviços em várias vertentes da Engenharia Civil nomeadamente:</p>
         <ul>
         <li>Execução de projetos de estruturas, contenção periférica, de distribuição de águas e de rede de águas residuais e de acústica em edifícios de habitação ou de comércio;</li>
@@ -18,12 +18,12 @@ const Services = () => {
         </ul>
       </div>
         <img src={photo04} className="services-picture" alt="projecting" />
-      <div className="services-text-alt">
+      <div className="services-text-alt services-text-bigger">
         <p>
           Os membros técnicos que colaboram com a Flettor possuem um vasto conhecimento técnico e experiência profissional, sendo o corpo de engenharia creditado na ordem dos engenheiros. Destaca-se a boa formação académica no campo da engenharia civil, bem como o rigor, a eficiência e o seu profissionalismo
         </p>
       </div>
-      <div className="services-text">
+      <div className="services-text services-text-bigger">
         <p>
           Como fundador da Flettor, Nuno Alvarenga Soares, assume um profundo gosto pela área da Engenharia Civil, tentando direcionar a Flettor e os seus cliente para projetos económicos, funcionais e bem articulados com a arquitetura. Tem a sua base de formação no Instituto Superior Técnico, passando por empresas do ramo de projeto, e desenvolvendo constantemente projetos no âmbito das estruturas, águas e esgotos e acústica. Tem-se dedicado nos seus últimos anos a projetos de estruturas para edifícios de habitação, comércio e escolas, onde uma diversidade de soluções construtivas são aplicadas.
         </p>
