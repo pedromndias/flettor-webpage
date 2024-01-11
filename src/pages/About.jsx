@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="about">
       <div className="about-text">
-        <h1>Flettor - Engenharia & Consultoria</h1>
+        <h1>FLETTOR - Engenharia & Consultoria</h1>
         <p>
             A Flettor Lda tem como objetivo e foco o desenvolvimento e implementação de soluções de engenharia civil no âmbito do projeto, nomeadamente no sector da construção de edifícios.
         </p>

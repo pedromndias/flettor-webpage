@@ -9,6 +9,7 @@ import Contact from './pages/Contact'
 import Footer from './components/Footer'
 import TermsCon from './pages/TermsCon'
 import { useState } from 'react'
+import backToTop from "./assets/back-to-top.png"
 
 function App() {
   // Let's create a varibale to check if we are on a mobile version:
@@ -23,6 +24,15 @@ function App() {
     // Change the showCover state:
     setShowCover(false);
   }
+
+  // Function to handle scroll to top
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth" // smooth scroll behavior
+    });
+  };
+
   
 
   return (
@@ -31,6 +41,10 @@ function App() {
       {showCover && <HomeCover onEnterClick={handleEnterClick} />}
 
       <Navbar />
+
+      <button className="back-to-top-btn" onClick={scrollToTop}>
+        <img src={backToTop} alt="back-to-top" />
+      </button>
 
       <Routes>
         <Route path="/" element={<HomeCover onEnterClick={handleEnterClick} />} />

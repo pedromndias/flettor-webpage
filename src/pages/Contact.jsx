@@ -12,7 +12,7 @@ const Contact = () => {
       <p className="contact-big">Horário de contacto:</p>
       <ul className="contact-ul">
         <li>De 2ª-Feira a 6ª-Feira.</li>
-        <li>Das 9h às 17h</li>
+        <li>Das 09:00 às 17:00</li>
       </ul>
       <br />
       <p>
