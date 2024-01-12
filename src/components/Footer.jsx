@@ -6,7 +6,10 @@ const Footer = () => {
   
     return (
       <footer>
-        <Link className="footer-link" to="/terms-and-conditions">Termos & Condições</Link>
+        <div>
+          <Link className="footer-link" to="/terms-and-conditions">Termos & Condições</Link> - 
+          <Link to="/privacy-policy"> Política de Privacidade</Link>
+        </div>
         <p>&copy; 2023-{currentYear} Flettor. Todos os direitos reservados.</p>
       </footer>
     );

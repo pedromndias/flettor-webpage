@@ -10,6 +10,7 @@ import Footer from './components/Footer'
 import TermsCon from './pages/TermsCon'
 import { useState } from 'react'
 import backToTop from "./assets/back-to-top.png"
+import PrivacyPol from './pages/PrivacyPol'
 
 function App() {
   // Let's create a varibale to check if we are on a mobile version:
@@ -29,7 +30,7 @@ function App() {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth" // smooth scroll behavior
+      behavior: "smooth"
     });
   };
 
@@ -53,6 +54,7 @@ function App() {
         <Route path="/technical-solutions" element={<Solutions />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/terms-and-conditions" element={<TermsCon />} />
+        <Route path="/privacy-policy" element={<PrivacyPol />} />
       </Routes>
 
       <Footer />
