@@ -1,13 +1,13 @@
 import { useState, useEffect } from 'react';
-import logoAnimated from "../assets/logo-complete-RY-short.png"
+import logoAnimated from "../assets/logo-complete-GY-short.png"
 
 const LogoAnimation = ({ onLogoLoaded }) => {
   const [loaded, setLoaded] = useState(false);
-  const [logoSize, setLogoSize] = useState({ width: '10vw', height: '7vw' });
+  const [logoSize, setLogoSize] = useState({ width: '7vw', height: '7vw' });
 
   useEffect(() => {
     const updateLogoSize = () => {
-      setLogoSize({ width: '75vw', height: '70vw' });
+      setLogoSize({ width: '80vw', height: '80vw' });
       setLoaded(true);
       // We need to notify the parent component that logo animation is loaded
       onLogoLoaded();
@@ -22,8 +22,11 @@ const LogoAnimation = ({ onLogoLoaded }) => {
   }, [onLogoLoaded]);
 
   const logoStyles = {
+    maxWidth: '100%', // Ensure the logo doesn't exceed its container width
+    maxHeight: '100vh', // Ensure the logo doesn't exceed the viewport height
     width: logoSize.width,
     height: logoSize.height,
+    objectFit: 'contain',
     opacity: loaded ? '1' : '0',
     transition: "all 2s ease-in-out",
     position: 'absolute',
@@ -33,7 +36,7 @@ const LogoAnimation = ({ onLogoLoaded }) => {
   };
 
   return (
-    <div style={{ position: 'relative', width: '100vw', height: '100vh' }}>
+    <div style={{ position: 'relative', width: '100vw', height: '100vh' }} className='logo-container'>
       <img src={logoAnimated} alt="Logo" className="logo" style={logoStyles} />
     </div>
   );
