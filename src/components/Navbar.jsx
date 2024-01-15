@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import flettorLogo from "../assets/logo-flettor-GY-03.jpg";
+import flettorLogoSimple from "../assets/logo-simple-GY-02.jpg";
 import menuBurger from "../assets/menu-burger-02.png"
 import { useState } from "react";
 
@@ -25,7 +26,7 @@ const Navbar = () => {
         <nav className="navbar">
             <div className="nav-li-logo">
                 <Link to="/">
-                    <img src={flettorLogo} />
+                    <img src={flettorLogoSimple} />
                 </Link>
             </div>
             <div className={`navbar-toggle ${isSpinning ? 'spin-burger' : ''}`} onClick={toggleMenu}><img src={menuBurger}/></div>

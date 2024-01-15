@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import logoAnimated from "../assets/logo-complete-GY-short.png"
+import logoAnimated2 from "../assets/flettor-simple-BW.jpg"
 
 const LogoAnimation = ({ onLogoLoaded }) => {
   const [loaded, setLoaded] = useState(false);
@@ -37,7 +38,7 @@ const LogoAnimation = ({ onLogoLoaded }) => {
 
   return (
     <div style={{ position: 'relative', width: '100vw', height: '100vh' }} className='logo-container'>
-      <img src={logoAnimated} alt="Logo" className="logo" style={logoStyles} />
+      <img src={logoAnimated2} alt="Logo" className="logo" style={logoStyles} />
     </div>
   );
 };

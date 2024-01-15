@@ -1,11 +1,17 @@
 import photo04 from "../assets/photo-04.jpg"
+import { useEffect } from "react";
 
 const Services = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0); 
+  }, []);
+
   return (
     <div className="services">
       <div className="services-text">
         <h1>SERVIÇOS</h1>
-        <p>A Flettor Lda disponibiliza serviços em várias vertentes da Engenharia Civil nomeadamente:</p>
+        <p className="services-text-bigger">A Flettor Lda disponibiliza serviços em várias vertentes da Engenharia Civil nomeadamente:</p>
         <ul>
         <li>Execução de projetos de estruturas, contenção periférica, de distribuição de águas e de rede de águas residuais e de acústica em edifícios de habitação ou de comércio;</li>
         <li>Apoio à gestão de projetos, com vista ao licenciamento em Câmaras Municipais e/ou outras entidades;</li>

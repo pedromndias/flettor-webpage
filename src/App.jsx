@@ -13,10 +13,9 @@ import backToTop from "./assets/back-to-top.png"
 import PrivacyPol from './pages/PrivacyPol'
 
 function App() {
-  // Let's create a varibale to check if we are on a mobile version:
-  const isMobile = window.innerWidth < 768;
+  
   // Let's create a state to show the HomeCover overlay:
-  const [showCover, setShowCover] = useState(!isMobile)
+  const [showCover, setShowCover] = useState(true)
   const navigate = useNavigate()
 
   const handleEnterClick = () => {
@@ -34,11 +33,9 @@ function App() {
     });
   };
 
-  
-
   return (
     <div className='app-container'>
-      {/* If we are not in a mobile, we will render the Home component */}
+  
       {showCover && <HomeCover onEnterClick={handleEnterClick} />}
 
       <Navbar />

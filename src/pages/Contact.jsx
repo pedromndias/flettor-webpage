@@ -1,4 +1,11 @@
+import { useEffect } from "react";
+
 const Contact = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0); 
+  }, []);
+
   return (
     <div className="contact">
       <h1>CONTACTO</h1>
@@ -16,7 +23,7 @@ const Contact = () => {
       </ul>
       <br />
       <p>
-        OBSERVAÇÃO: Qualquer pedido de realização de projeto à Flettor deve ser devidamente analisado e discutido previamente entre os demais intervenientes (projetistas, fornecedores e cliente), na tentativa de se encontrar as melhores soluções de projeto e de construção, promover as devidas sinergias em prol da satisfação do cliente e reduzir problemas que advêm constantemente das fases de licenciamento e/ou de construção.
+        OBSERVAÇÃO: Qualquer pedido de realização de projeto à Flettor deve ser devidamente analisado e discutido previamente entre os demais intervenientes (projetistas, fornecedores e cliente), na tentativa de se encontrar as melhores soluções de projeto e de construção, promover as devidas sinergias em prol da satisfação e exigências do cliente e reduzir problemas que advêm constantemente das fases de licenciamento e/ou de construção.
       </p>
     </div>
   )

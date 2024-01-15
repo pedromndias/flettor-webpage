@@ -1,6 +1,13 @@
+import { useEffect } from "react";
 import photo01 from "../assets/photo-01.jpg"
 
 const About = () => {
+
+  useEffect(() => {
+    // Scroll to the top when the component mounts
+    window.scrollTo(0, 0); 
+  }, []);
+
   return (
     <div className="about">
       <div className="about-text">
