@@ -202,14 +202,7 @@ footer a {
 /* IMAGES */
 
 
-
 /* LOGO ANIMATION */
-.logo-container {
-
-}
-.logo {
-  
-}
 
 
 /* TEXTS */
@@ -346,16 +339,16 @@ footer a {
 /* BACK TO TOP BUTTON */
 
 .back-to-top-btn {
+  display: none;
   position: fixed;
   bottom: 20px;
   right: 20px;
   z-index: 800;
-  padding: 10px 20px;
+  padding: 0.5rem;
   background-color: rgb(251, 231, 4);
   opacity: 0.3;
   color: #fff;
   border: 1px solid rgb(0, 76, 19);
-  padding: 0.5rem;
   border-radius: 5px;
   cursor: pointer;
   transition: opacity 0.3s ease;
@@ -363,6 +356,12 @@ footer a {
   &:hover {
     opacity: 0.8;
   }
+  &:focus {
+    outline: none;
+  }
+}
+.back-to-top-btn.visible {
+  display: block;
 }
 .back-to-top-btn img {
   width: 25px;
@@ -421,6 +420,9 @@ footer a {
   .enter-button:hover {
     font-size: 1.7rem;
   }
+  
+
+  
 }
 
 @media screen and (min-width: 865px) {
