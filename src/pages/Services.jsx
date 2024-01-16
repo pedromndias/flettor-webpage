@@ -1,5 +1,6 @@
 import photo04 from "../assets/photo-04.jpg"
 import { useEffect } from "react";
+import { Helmet } from 'react-helmet';
 
 const Services = () => {
 
@@ -9,6 +10,13 @@ const Services = () => {
 
   return (
     <div className="services">
+      <Helmet>
+        <title>Serviços de Engenharia Civil - Flettor</title>
+        <meta
+          name="description"
+          content="Explore os serviços de engenharia civil oferecidos pela Flettor. Desde projetos estruturais a consultoria, estamos aqui para atender às suas necessidades."
+        />
+      </Helmet>
       <div className="services-text">
         <h1>SERVIÇOS</h1>
         <p className="services-text-bigger">A Flettor Lda disponibiliza serviços em várias vertentes da Engenharia Civil nomeadamente:</p>

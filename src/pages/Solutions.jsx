@@ -6,7 +6,7 @@ import solutionPic05 from "../assets/solutions-05.png"
 import solutionPic06 from "../assets/solutions-06.png"
 import solutionPic07 from "../assets/solutions-07.png"
 import solutionPic08 from "../assets/solutions-08.png"
-import { useEffect } from "react";
+import { useEffect } from "react";import { Helmet } from 'react-helmet';
 
 const Solutions = () => {
 
@@ -16,6 +16,13 @@ const Solutions = () => {
 
   return (
     <div className="solutions">
+      <Helmet>
+        <title>Soluções Técnicas em Engenharia Civil - Flettor</title>
+        <meta
+          name="description"
+          content="Descubra as soluções técnicas em engenharia civil oferecidas pela Flettor. Do design estrutural à execução, oferecemos expertise em diversas áreas."
+        />
+      </Helmet>
       <div className="solutions-text">
         <h1>SOLUÇÕES TÉCNICAS</h1>
         <p className="solutions-text-bigger">Os membros técnicos que colaboram com a Flettor possuem um vasto conhecimento técnico e experiência profissional, aliado a uma boa formação académica no campo da engenharia civil. Como garantia de qualidade e eficiência, podem proporcionar soluções adequadas e económicas com vista à execução de edifícios e infrastruturas complementares solicitados pelos seus clientes, destancando-se:</p>

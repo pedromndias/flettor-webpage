@@ -1,13 +1,21 @@
 import { useEffect } from "react";
+import { Helmet } from 'react-helmet';
 
 const PrivacyPol = () => {
     useEffect(() => {
         window.scrollTo(0, 0); 
       }, []);
-      
+
   return (
 
     <div className="priv-pol">
+        <Helmet>
+            <title>Política de Privacidade - Flettor</title>
+            <meta
+                name="description"
+                content="Conheça a política de privacidade da Flettor. Saiba como protegemos e utilizamos as suas informações pessoais."
+            />
+        </Helmet>
         <h2>POLÍTICA DE PRIVACIDADE</h2>
         <h3>Última atualização: 12/01/2023</h3>
         <p>

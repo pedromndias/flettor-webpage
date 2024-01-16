@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
+import { Helmet } from 'react-helmet';
 
 const TermsCon = () => {
     useEffect(() => {
@@ -7,6 +8,12 @@ const TermsCon = () => {
       }, []);
     return (
         <div className="terms-con">
+            <Helmet>
+                <title>Termos & Condições - Flettor</title>
+                <meta
+                    name="description"
+                    content="Leia os termos e condições da Flettor para compreender as diretrizes e responsabilidades ao utilizar os nossos serviços."/>
+            </Helmet>
             <h2>TERMOS E CONDIÇÕES</h2>
             <h3>1. Introdução</h3>
             <p>Bem-vindo à Flettor! Ao aceder e utilizar o nosso site, concorda com

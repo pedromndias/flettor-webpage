@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Helmet } from 'react-helmet';
 
 const Contact = () => {
 
@@ -8,6 +9,13 @@ const Contact = () => {
 
   return (
     <div className="contact">
+      <Helmet>
+        <title> Contacte-nos - Flettor</title>
+        <meta
+          name="description"
+          content="Entre em contacto com a Flettor. Estamos disponíveis para discutir os seus projetos e fornecer soluções personalizadas em engenharia civil."
+        />
+      </Helmet>
       <h1>CONTACTO</h1>
       <p className="contact-big">
         Qualquer consulta, informação ou pedido de cotação pode contactar por um dos seguintes canais:</p>

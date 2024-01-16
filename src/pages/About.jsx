@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import photo01 from "../assets/photo-01.jpg"
+import { Helmet } from 'react-helmet';
 
 const About = () => {
 
@@ -10,6 +11,14 @@ const About = () => {
 
   return (
     <div className="about">
+      {/* Let's use react-helmet package to improve the SEO: */}
+      <Helmet>
+        <title>Flettor - Engenharia & Consultoria</title>
+        <meta
+          name="description"
+          content="Conheça a Flettor, especializada em serviços de engenharia civil. Saiba mais sobre a nossa experiência e compromisso com a excelência."
+        />
+      </Helmet>
       <div className="about-text">
         <h1>FLETTOR - Engenharia & Consultoria</h1>
         <p>
