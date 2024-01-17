@@ -22,7 +22,7 @@ const About = () => {
       <div className="about-text">
         <h1>FLETTOR - Engenharia & Consultoria</h1>
         <p>
-            A Flettor Lda tem como objetivo e foco o desenvolvimento e implementação de soluções de engenharia civil no âmbito do projeto, nomeadamente no sector da construção de edifícios.
+            A Flettor Lda tem como objetivo e foco o desenvolvimento e implementação de soluções de engenharia civil na vertente de projeto, nomeadamente para a conceção de edifícios de habitação e de comércio/serviços.
         </p>
       </div>
       <img className="about-text-picture" src={photo01} alt="construction" />

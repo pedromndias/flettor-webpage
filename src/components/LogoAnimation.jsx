@@ -38,7 +38,7 @@ const LogoAnimation = ({ onLogoLoaded }) => {
 
   return (
     <div style={{ position: 'relative', width: '100vw', height: '100vh' }} className='logo-container'>
-      <img src={logoAnimated2} alt="Logo" className="logo" style={logoStyles} />
+      <img src={logoAnimated} alt="Logo" className="logo" style={logoStyles} />
     </div>
   );
 };
