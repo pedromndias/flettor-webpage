@@ -17,22 +17,21 @@ const PrivacyPol = () => {
             />
         </Helmet>
         <h2>POLÍTICA DE PRIVACIDADE</h2>
-        <h3>Última atualização: 12/01/2023</h3>
+        <h3>Última atualização: 18/01/2023</h3>
         <p>
         Bem-vindo à Flettor. A sua privacidade é uma prioridade para nós. Esta Política de Privacidade esclarece como tratamos as suas informações pessoais que recolhemos ou que nos são fornecidas através do nosso site.
         </p>
         <h3>1. Informações Recolhidas</h3>
-        <p>Quando visita o nosso site, podemos recolher diversas informações, tais como:</p>
+        <p>Quando visita o nosso site, não recolhemos informações pessoais automaticamente através de cookies ou tecnologias semelhantes. As informações que poderemos recolher são limitadas e incluem:</p>
         <ul>
-            <li>Dados de identificação pessoal (nome, endereço de e-mail, contacto telefónico).</li>
-            <li>Dados de navegação, incluindo o seu endereço IP, tipo de navegador utilizado e páginas visitadas.</li>
+            <li>Dados de identificação pessoal (nome, endereço de e-mail, contacto telefónico) fornecidos voluntariamente por si.</li>
+            <li>Dados de navegação, incluindo o seu endereço IP, tipo de navegador utilizado e páginas visitadas, mas apenas de forma anónima e agregada.</li>
         </ul>
         <h3>2. Utilização das Informações</h3>
-        <p>Utilizamos as informações recolhidas para:</p>
+        <p>Utilizamos as informações recolhidas de forma limitada e apenas para:</p>
         <ul>
             <li>Melhorar a sua experiência no nosso site.</li>
             <li>Fornecer e otimizar os nossos serviços.</li>
-            <li>Enviar comunicações de marketing, caso tenha dado o seu consentimento.</li>
         </ul>
         <h3>3. Proteção das Informações</h3>
         <p>Implementámos medidas de segurança para proteger as suas informações contra acessos não autorizados, alterações, divulgações ou destruições.</p>

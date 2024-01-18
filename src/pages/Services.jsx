@@ -19,7 +19,7 @@ const Services = () => {
       </Helmet>
       <div className="services-text">
         <h1>SERVIÇOS</h1>
-        <p className="services-text-bigger">A Flettor Lda disponibiliza serviços em várias vertentes da Engenharia Civil nomeadamente:</p>
+        <p className="services-text-bigger">A Flettor disponibiliza serviços em várias vertentes da Engenharia Civil nomeadamente:</p>
         <ul>
         <li>Execução de projetos de estruturas, contenção periférica, de distribuição de águas e de rede de águas residuais e de acústica em edifícios de habitação ou de comércio;</li>
         <li>Apoio à gestão de projetos, com vista ao licenciamento em Câmaras Municipais e/ou outras entidades;</li>

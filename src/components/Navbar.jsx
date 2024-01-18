@@ -37,7 +37,7 @@ const Navbar = () => {
             <ul className={`navbar-links ${isOpen ? "active" : ""}`}>
                 <li>
                     <Link to="/about" onClick={closeMenu}>
-                        EMPRESA
+                        SOBRE NÓS
                     </Link>
                 </li>
                 <li>
