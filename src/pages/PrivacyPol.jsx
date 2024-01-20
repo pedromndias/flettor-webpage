@@ -17,7 +17,7 @@ const PrivacyPol = () => {
             />
         </Helmet>
         <h2>POLÍTICA DE PRIVACIDADE</h2>
-        <h3>Última atualização: 18/01/2023</h3>
+        <h3>Última atualização: 18/01/2024</h3>
         <p>
         Bem-vindo à Flettor. A sua privacidade é uma prioridade para nós. Esta Política de Privacidade esclarece como tratamos as suas informações pessoais que recolhemos ou que nos são fornecidas através do nosso site.
         </p>
