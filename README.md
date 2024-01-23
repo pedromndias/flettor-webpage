@@ -2,11 +2,9 @@
 
 ## [www.flettor.pt](www.flettor.pt)
 
-![App Logo](https://www.flettor.pt/assets/logo-complete-GY-short-FmULTeyE.png)
+<img src="https://www.flettor.pt/assets/logo-complete-GY-short-FmULTeyE.png" width="300" alt="App Logo">
 
 This project is a React-based website for an engineering company, showcasing services, technical solutions, and more.
-
-The app is fully **responsive**.
 
 
 ## Technologies used:

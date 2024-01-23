@@ -18,7 +18,7 @@ const Contact = () => {
       </Helmet>
       <h1>CONTACTO</h1>
       <p className="contact-big">
-        Qualquer consulta, informação ou pedido de cotação pode contactar por um dos seguintes canais:</p>
+        Para consultas, informações ou pedidos de cotação, pode entrar em contato pelos seguintes meios:</p>
       <ul className="contact-ul">
         <li>T: +351 927563746 (Engº Nuno Alvarenga)</li>
         <li>M: geral@flettor.pt</li>
@@ -31,7 +31,7 @@ const Contact = () => {
       </ul>
       <br />
       <p>
-        OBSERVAÇÃO: Qualquer pedido de realização de projeto à Flettor deve ser devidamente analisado e discutido previamente entre os demais intervenientes (projetistas, fornecedores e cliente), na tentativa de se encontrar as melhores soluções de projeto e de construção, promover as devidas sinergias em prol da satisfação e exigências do cliente e reduzir problemas que advêm constantemente das fases de licenciamento e/ou de construção.
+      OBSERVAÇÃO: Qualquer pedido de realização de projeto à Flettor deve ser devidamente analisado e discutido previamente entre os demais intervenientes (projetistas, fornecedores e cliente), na tentativa de se encontrar as melhores soluções de projeto e de construção em prol da satisfação e exigências do cliente, e mitigar problemas que advêm constantemente das fases de licenciamento e/ou de construção.
       </p>
     </div>
   )
