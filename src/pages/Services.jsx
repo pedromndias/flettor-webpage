@@ -19,7 +19,7 @@ const Services = () => {
       </Helmet>
       <div className="services-text">
         <h1>SERVIÇOS</h1>
-        <p className="services-text-bigger">A Flettor disponibiliza serviços em várias vertentes da Engenharia Civil nomeadamente:</p>
+        <p className="services-text-bigger">A Flettor disponibiliza serviços nas vertentes de projeto de estruturas e soluções geotécnicas nomeadamente:</p>
         <ul>
         <li>Execução de projetos de estruturas, contenção periférica, distribuição de águas, rede de águas residuais e acústica em edifícios de habitação e de comércio/serviços;</li>
         <li>Apoio à gestão de projetos, com vista ao bom licenciamento em Câmaras Municipais e/ou outras entidades;</li>
@@ -39,7 +39,7 @@ const Services = () => {
       </div>
       <div className="services-text services-text-bigger">
         <p>
-        Fundador da Flettor, Nuno Alvarenga Soares tem um profundo gosto pela área da Engenharia Civil, procurando orientar a Flettor e seus clientes para projetos económicos, funcionais e bem articulados com a arquitetura. Com formação base no Instituto Superior Técnico, com especialização no ramo de estruturas, acumulou experiência em empresas do ramo de projetos, dedicando-se continuamente ao cálculo e concepção de projetos de estabilidade, geotecnia, águas, esgotos e acústica. Nos últimos anos, concentrou seus esforços em projetos de estruturas para edifícios de habitação, de comércio e escolas, aplicando sempre as soluções construtivas adequadas em cada situação.
+          Nuno Alvarenga Soares, o responsável técnico, tem um profundo gosto pela área da Engenharia Civil, procurando orientar os seus clientes nas suas necessidades e encontrando soluções económicos, funcionais e bem articulados com a arquitetura. Com formação base no Instituto Superior Técnico, com especialização no ramo de estruturas, acumulou experiência em empresas do ramo de projetos, dedicando-se continuamente ao cálculo e concepção de projetos de estabilidade, geotecnia, águas e esgotos. Nos últimos anos, concentrou seus esforços em projetos de estruturas para edifícios de habitação, de comércio e escolas, aplicando sempre as soluções construtivas adequadas em cada situação.
         </p>
       </div>
     </div>

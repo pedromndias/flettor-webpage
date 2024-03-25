@@ -6,7 +6,8 @@ import solutionPic05 from "../assets/solutions-05.png"
 import solutionPic06 from "../assets/solutions-06.png"
 import solutionPic07 from "../assets/solutions-07.png"
 import solutionPic08 from "../assets/solutions-08.png"
-import { useEffect } from "react";import { Helmet } from 'react-helmet';
+import { useEffect } from "react";
+import { Helmet } from 'react-helmet';
 
 const Solutions = () => {
 
@@ -27,7 +28,7 @@ const Solutions = () => {
         <h1>SOLUÇÕES TÉCNICAS</h1>
         <p className="solutions-text-bigger">Os membros técnicos que colaboram com a Flettor possuem um vasto conhecimento técnico e experiência profissional, aliado a uma sólida formação académica no campo da engenharia civil. Como garantia de qualidade e eficiência, oferecem soluções adequadas e económicas para a execução de edifícios e suas infraestruturas complementares, destacando-se:</p>
         <ul>
-          <li>Execução de projetos de estabilidade, águas e acústica para edifícios de habitação, comerciais e/ou serviços, para licenciamento, execução ou apoio a obra;</li>
+          <li>Execução de projetos de estabilidade e geotecnia para edifícios de habitação, comerciais e/ou serviços, para licenciamento, execução ou apoio a obra;</li>
           <li>Uso de soluções construtivas de betão armado para estruturas correntes (porticadas ou de paredes resistentes), e com dimensionamento de lajes vigadas, aligeiradas e fungiformes;</li>
           <div className="solutions-pic-container">
             <img src={solutionPic01} alt="pilars" />
@@ -50,10 +51,8 @@ const Solutions = () => {
           <li>Conceção de soluções geotécnicas através de fundações com estacas ou microestacas, quando um estudo geológico e geotécnico assim o determine;</li>
           <li>Adoção de soluções pré-esforçadas em elementos correntes de edifícios;</li>
           <li>Execução de pontes de pequeno vão, pedonais ou rodoviárias;</li>
-          <li>Implementação de estruturas mistas com recurso a lajes colaborantes;</li>
-          <li>Dimensionamento de redes de distribuição de águas e de esgotos prediais com ligação à rede pública, incluindo interpretação de cadastros municipais quando necessários;</li>
-          <img className="solutions-singlePic" src={solutionPic08} alt="" />
-          <li>Execução e dimensionamento de soluções correntes de acústica, em conformidade com a regulamentação e legislação portuguesa;</li>
+          <li>Implementação de estruturas mistas, de metal e betão, e recurso a lajes com chapas colaborantes;</li>
+          <li>Realização de mapas de quantidades e estimativais orçamentais para execução de estrutura e soluções geotécnicas.</li>
         </ul>
       </div>
     </div>

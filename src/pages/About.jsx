@@ -22,7 +22,7 @@ const About = () => {
       <div className="about-text">
         <h1>FLETTOR - Engenharia & Consultoria</h1>
         <p>
-            A Flettor tem como objetivo e foco o desenvolvimento e implementação de soluções de engenharia civil na vertente de projeto, nomeadamente para a conceção de edifícios de habitação e de comércio/serviços. Disponibilizamos os nossos serviços principalmente nas regiões de Lisboa, Centro e Alentejo.
+          A Flettor tem como objetivo e foco o desenvolvimento e implementação de soluções de engenharia civil na vertente de projeto de estruturas e fundações, nomeadamente conceção de edifícios de habitação e de comércio/serviços. Disponibilizamos os nossos serviços principalmente nas regiões de Lisboa, Centro e Alentejo.
         </p>
       </div>
       <img className="about-text-picture" src={photo01} alt="construction" />
