@@ -21,7 +21,7 @@ const Services = () => {
         <h1>SERVIÇOS</h1>
         <p className="services-text-bigger">A Flettor disponibiliza serviços nas vertentes de projeto de estruturas e soluções geotécnicas nomeadamente:</p>
         <ul>
-        <li>Execução de projetos de estruturas, contenção periférica, distribuição de águas, rede de águas residuais e acústica em edifícios de habitação e de comércio/serviços;</li>
+        <li>Execução de projetos de estruturas, fundações e contenção periférica em edifícios de habitação e de comércio/serviços;</li>
         <li>Apoio à gestão de projetos, com vista ao bom licenciamento em Câmaras Municipais e/ou outras entidades;</li>
         <li>Consultoria e apoio contínuo, em parceria com o coordenador ou gestor de projetos, nas diferentes fases de conceção do projeto, desde o estudo prévio à sua execução, articulando-se sempre a arquitetura com as diversas especialidades (a estabilidade, a eletromecânica, a rede elétrica, a segurança contra incêndios, entre outras);</li>
         <li>Apoio técnico em fase de obra, com possibilidade para pedidos de alteração quando tecnicamente viável;</li>
